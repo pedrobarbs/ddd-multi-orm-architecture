@@ -16,3 +16,7 @@ Powered by .NET Core 2.2
 ![](https://media.giphy.com/media/1AgDC9NuFG3AXgiYrN/giphy.gif)
 
 5. Enjoy it! ;)
+
+##License
+
+React is MIT licensed.
