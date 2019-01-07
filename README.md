@@ -18,4 +18,4 @@ Powered by .NET Core 2.2
 5. Enjoy it! ;)
 
 ## License
-SemanticArchitecture is [MIT licensed] (https://github.com/pedrobarbs/ddd-multi-orm-architecture/blob/master/LICENSE).
+SemanticArchitecture is [MIT licensed](https://github.com/pedrobarbs/ddd-multi-orm-architecture/blob/master/LICENSE).
