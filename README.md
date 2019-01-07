@@ -11,6 +11,8 @@ Powered by .NET Core 2.2
     1. Target project 'SemanticArchitecture.DataAccess.EntityFramework'.
     2. Execute 'add-migration migration'.
     3. Execute 'update-database'.
-4. Now you can run it and easily switch between entity and dapper implementations at 'DataAccessGateway' classes.
+4. Now you can run it and easily switch between entity and dapper implementations at the 'DataAccessGateway' classes.
+
 ![](https://media.giphy.com/media/1AgDC9NuFG3AXgiYrN/giphy.gif)
+
 5. Enjoy it! ;)
