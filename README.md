@@ -18,4 +18,4 @@ Powered by .NET Core 2.2
 5. Enjoy it! ;)
 
 ## License
-React is MIT licensed.
+SemanticArchitecture is MIT licensed.
