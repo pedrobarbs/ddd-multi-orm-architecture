@@ -17,6 +17,5 @@ Powered by .NET Core 2.2
 
 5. Enjoy it! ;)
 
-License
-
+## License
 React is MIT licensed.
