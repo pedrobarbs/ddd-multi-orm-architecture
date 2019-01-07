@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>SemanticArchitecture.DataAccessGateway</AssemblyName>
+    <RootNamespace>SemanticArchitecture.DataAccessGateway</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SemanticArchitecture.Dapper\SemanticArchitecture.DataAccess.Dapper.csproj" />
+    <ProjectReference Include="..\SemanticArchitecture.Domain.Core\SemanticArchitecture.Domain.Core.csproj" />
+    <ProjectReference Include="..\SemanticArchitecture.Domain\SemanticArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\SemanticArchitecture.EntityFramework\SemanticArchitecture.DataAccess.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>

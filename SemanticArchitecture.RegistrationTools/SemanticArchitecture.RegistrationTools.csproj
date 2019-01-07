@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SemanticArchitecture.Dapper\SemanticArchitecture.DataAccess.Dapper.csproj" />
+    <ProjectReference Include="..\SemanticArchitecture.EntityFramework\SemanticArchitecture.DataAccess.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>

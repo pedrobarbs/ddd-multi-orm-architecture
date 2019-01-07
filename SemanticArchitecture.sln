@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{C8E112F4-6A95-4E5E-9D5E-A5E63A555DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{074C66F6-8ED8-435D-AB68-0482986BF2FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C2A57CA9-BC80-4EAA-8793-C867F9502FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{F6671AD8-1144-4BAD-ACE3-A5E064B96E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data Access", "4 - Data Access", "{A415109B-1277-44D3-9593-0AAE83FA09A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "X - Cross-Cutting", "X - Cross-Cutting", "{B36D8BB5-083E-4F86-B8EA-4B78D743B2FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.Domain", "SemanticArchitecture.Domain\SemanticArchitecture.Domain.csproj", "{2EA8F552-53C0-42C3-907C-B7B5BE283D51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.DataAccessGateway", "SemanticArchitecture.DataAccessGateway\SemanticArchitecture.DataAccessGateway.csproj", "{063F8E90-529D-4B6D-A11D-8B90BC4A18FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.DataAccess.EntityFramework", "SemanticArchitecture.EntityFramework\SemanticArchitecture.DataAccess.EntityFramework.csproj", "{66370AF7-9BB8-4C77-B96E-005FFD05CB03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.DataAccess.Dapper", "SemanticArchitecture.Dapper\SemanticArchitecture.DataAccess.Dapper.csproj", "{CE7B8ED9-C166-41BA-986E-C367CA3034D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Gateway", "Data Access Gateway", "{352B4EB6-3B2C-446D-9BC5-6CAA8499D987}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.Domain.Core", "SemanticArchitecture.Domain.Core\SemanticArchitecture.Domain.Core.csproj", "{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.InversionOfControl", "SemanticArchitecture.DependencyInjection\SemanticArchitecture.InversionOfControl.csproj", "{01E532BE-A89D-4F71-A285-1A102FA8C0F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.Application", "SemanticArchitecture.Application\SemanticArchitecture.Application.csproj", "{5B6AAFAA-87EA-4036-942F-F6FB96F931A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.Presentation", "SemanticArchitecture.Presentation\SemanticArchitecture.Presentation.csproj", "{CE907C13-3D43-435F-814C-5F446F3AF533}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticArchitecture.RegistrationTools", "SemanticArchitecture.RegistrationTools\SemanticArchitecture.RegistrationTools.csproj", "{BCCF2E12-DD71-43AD-A947-5674D80A922C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticArchitecture.API", "SemanticArchitecture.API\SemanticArchitecture.API.csproj", "{58161B82-C38B-4A65-9544-E7CA64574275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA8F552-53C0-42C3-907C-B7B5BE283D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA8F552-53C0-42C3-907C-B7B5BE283D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA8F552-53C0-42C3-907C-B7B5BE283D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA8F552-53C0-42C3-907C-B7B5BE283D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063F8E90-529D-4B6D-A11D-8B90BC4A18FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063F8E90-529D-4B6D-A11D-8B90BC4A18FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063F8E90-529D-4B6D-A11D-8B90BC4A18FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063F8E90-529D-4B6D-A11D-8B90BC4A18FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66370AF7-9BB8-4C77-B96E-005FFD05CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66370AF7-9BB8-4C77-B96E-005FFD05CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66370AF7-9BB8-4C77-B96E-005FFD05CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66370AF7-9BB8-4C77-B96E-005FFD05CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7B8ED9-C166-41BA-986E-C367CA3034D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7B8ED9-C166-41BA-986E-C367CA3034D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7B8ED9-C166-41BA-986E-C367CA3034D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7B8ED9-C166-41BA-986E-C367CA3034D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E532BE-A89D-4F71-A285-1A102FA8C0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E532BE-A89D-4F71-A285-1A102FA8C0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E532BE-A89D-4F71-A285-1A102FA8C0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E532BE-A89D-4F71-A285-1A102FA8C0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6AAFAA-87EA-4036-942F-F6FB96F931A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6AAFAA-87EA-4036-942F-F6FB96F931A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6AAFAA-87EA-4036-942F-F6FB96F931A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6AAFAA-87EA-4036-942F-F6FB96F931A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE907C13-3D43-435F-814C-5F446F3AF533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE907C13-3D43-435F-814C-5F446F3AF533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE907C13-3D43-435F-814C-5F446F3AF533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE907C13-3D43-435F-814C-5F446F3AF533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCF2E12-DD71-43AD-A947-5674D80A922C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCF2E12-DD71-43AD-A947-5674D80A922C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCF2E12-DD71-43AD-A947-5674D80A922C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCF2E12-DD71-43AD-A947-5674D80A922C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58161B82-C38B-4A65-9544-E7CA64574275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58161B82-C38B-4A65-9544-E7CA64574275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58161B82-C38B-4A65-9544-E7CA64574275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58161B82-C38B-4A65-9544-E7CA64574275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EA8F552-53C0-42C3-907C-B7B5BE283D51} = {F6671AD8-1144-4BAD-ACE3-A5E064B96E53}
+		{063F8E90-529D-4B6D-A11D-8B90BC4A18FE} = {352B4EB6-3B2C-446D-9BC5-6CAA8499D987}
+		{66370AF7-9BB8-4C77-B96E-005FFD05CB03} = {A415109B-1277-44D3-9593-0AAE83FA09A9}
+		{CE7B8ED9-C166-41BA-986E-C367CA3034D7} = {A415109B-1277-44D3-9593-0AAE83FA09A9}
+		{352B4EB6-3B2C-446D-9BC5-6CAA8499D987} = {A415109B-1277-44D3-9593-0AAE83FA09A9}
+		{2F2FE0F0-76C6-4D3B-B270-AD35B96F593B} = {F6671AD8-1144-4BAD-ACE3-A5E064B96E53}
+		{01E532BE-A89D-4F71-A285-1A102FA8C0F7} = {B36D8BB5-083E-4F86-B8EA-4B78D743B2FD}
+		{5B6AAFAA-87EA-4036-942F-F6FB96F931A9} = {C2A57CA9-BC80-4EAA-8793-C867F9502FC4}
+		{CE907C13-3D43-435F-814C-5F446F3AF533} = {C8E112F4-6A95-4E5E-9D5E-A5E63A555DFD}
+		{BCCF2E12-DD71-43AD-A947-5674D80A922C} = {B36D8BB5-083E-4F86-B8EA-4B78D743B2FD}
+		{58161B82-C38B-4A65-9544-E7CA64574275} = {074C66F6-8ED8-435D-AB68-0482986BF2FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE763A7-FE10-4128-A33A-60CABDD0802E}
+	EndGlobalSection
+EndGlobal
