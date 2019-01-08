@@ -12,8 +12,7 @@ Powered by .NET Core 2.2
     2. Execute 'add-migration migration'.
     3. Execute 'update-database'.
 4. Now you can run it and easily switch between entity and dapper implementations at the 'DataAccessGateway' classes.
-
-![](https://media.giphy.com/media/1AgDC9NuFG3AXgiYrN/giphy.gif)
+<div style="text-align:center"><img src ="https://media.giphy.com/media/1AgDC9NuFG3AXgiYrN/giphy.gif" /></div>
 
 5. Enjoy it! ;)
 
